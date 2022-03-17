@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>TETRIS GAME</title>
+        <style>
+            body {
+                text-align: center;
+
+            }
+            table {
+                border-collapse: collapse;
+                left: 30px;
+                display: inline-block;
+                margin: 10px;
+            }
+            div {
+                top: 0;
+                display: inline-block;
+                margin: 10px;
+                vertical-align: top;
+            }
+            img {
+                display: inline;
+            }
+            td {
+                border: 1px solid black;
+                width: 25px;
+                height: 25px;
+                margin: 0px;
+            }
+            #logo {
+                width: 300px;
+            }
+        </style>
+        <script src="tetris.js" defer></script>
+    </head>
+    <body onkeydown="setControl(event)">
+        <div><img id="logo" src="./img/logo.jpg"></div>
+        <div>
+            <table>
+            </table>
+        </div>
+        <div>LEVEL</div>
+        <div>1</div>
+        <div>
+            SCORE
+        </div>
+        <div>0</div>
+        <div>
+            Next Blocks<br>
+            
+        </div>
+    </body>
+</html>
