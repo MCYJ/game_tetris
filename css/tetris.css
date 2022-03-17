@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+
+}
+table {
+    border-collapse: collapse;
+    left: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+div {
+    top: 0;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+img {
+    display: inline;
+}
+td {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+}
+#logo {
+    width: 300px;
+}
