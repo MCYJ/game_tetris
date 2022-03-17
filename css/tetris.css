@@ -15,7 +15,7 @@ div {
     vertical-align: top;
 }
 img {
-    display: inline;
+    display: inline-block;
 }
 td {
     border: 1px solid black;
@@ -25,4 +25,11 @@ td {
 }
 #logo {
     width: 300px;
+}
+.side-item {
+    display: block;
+}
+footer, header {
+    margin: 0;
+    padding: 0;
 }
