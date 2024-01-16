@@ -1,7 +1,7 @@
 # GAME_TETRIS (22.03.14~)
  about the game of TETRIS
  
- GO TO https://mcyj.github.io/GAME_TETRIS/tetris.html
+ GO TO https://mcyj.github.io/game_tetris/tetris.html
  
 일반적으로 떠올릴 수 있는 테트리스 게임을 구현
 <br>구조 자체는 별도의 라이브러리를 사용하지 않고, table 객체를 생성하고 그안에 있는 td의 collection을 반환받아서 테트리스 게임을 구현
